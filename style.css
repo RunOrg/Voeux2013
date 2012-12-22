@@ -93,10 +93,20 @@ a.feed-add:hover {
 	margin-bottom: 16px;
 }
 
-.feed span, .feed p {
+.feed li > span, .feed p {
 	display: block;
 	margin: 0 20px 8px 66px;
 	font-size: 13px;
+}
+
+.feed span span {
+	font-size: 12px;
+	color: #888;
+}
+
+.feed a {
+	text-decoration: none;
+	color: #58D;
 }
 
 /* Transition and animation (yay CSS3) ------------------------------- */
