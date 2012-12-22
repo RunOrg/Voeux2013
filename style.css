@@ -31,6 +31,37 @@ p {
 	line-height: 1.5em;
 }
 
+/* Feed aspect ------------------------------------------------------- */
+
+.feed {
+	list-style-type: none;
+	background-color: white;
+	border: 1px solid #888;
+	border-radius: 6px;
+	overflow: hidden;
+	padding: 16px 16px 0 16px;
+	box-shadow: inset 3px 3px 4px #DDD;
+	margin: 40px 40px;
+}
+
+.feed img {
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+
+.feed li {
+	overflow: hidden;
+	margin-bottom: 16px;
+}
+
+.feed span, .feed p {
+	display: block;
+	margin: 0 20px 8px 66px;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 13px;
+}
+
 /* Transition and animation (yay CSS3) ------------------------------- */
 
 .logo {
