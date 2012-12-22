@@ -14,6 +14,7 @@ body {
 	position: relative; 
 	margin: 40px auto;
 	width: 900px;
+	overflow: hidden;
 }
 
 h1 {
@@ -33,6 +34,11 @@ h1 {
 	transition: left, opacity;
 }
 
+.h {
+	opacity: 0.0;
+	visibility: hidden;
+}
+
 .t1 {
 	transition: 0.5s ease-in-out;
 	-webkit-transition: 0.5s ease-in-out;
@@ -48,8 +54,28 @@ h1 {
 	-webkit-transition:0.5s ease-in-out 0.5s;
 }
 
+.t4 {
+	transition:0.5s ease-in-out 0.75s;
+	-webkit-transition:0.5s ease-in-out 0.75s;
+}
+
+.t5 {
+	transition:0.5s ease-in-out 1s;
+	-webkit-transition:0.5s ease-in-out 1s;
+}
+
+.t6 {
+	transition:0.5s ease-in-out 1.25s;
+	-webkit-transition:0.5s ease-in-out 1.25s;
+}
+
 #content.s1 .dr.s1 {
 	left: 0.1px;
+	opacity: 1;
+	visibility: visible;
+}
+
+#content.s1 .h.s1 {
 	opacity: 1;
 	visibility: visible;
 }
