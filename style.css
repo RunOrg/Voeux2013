@@ -45,28 +45,28 @@ h1 {
 }
 
 .t2 {
-	transition: 0.5s ease-in-out 0.25s;
-	-webkit-transition: 0.5s ease-in-out 0.25s;
+	transition: 0.5s ease-in-out 0.33s;
+	-webkit-transition: 0.5s ease-in-out 0.33s;
 }
 
 .t3 {
-	transition:0.5s ease-in-out 0.5s;
-	-webkit-transition:0.5s ease-in-out 0.5s;
+	transition:0.5s ease-in-out 0.66s;
+	-webkit-transition:0.5s ease-in-out 0.66s;
 }
 
 .t4 {
-	transition:0.5s ease-in-out 0.75s;
-	-webkit-transition:0.5s ease-in-out 0.75s;
-}
-
-.t5 {
 	transition:0.5s ease-in-out 1s;
 	-webkit-transition:0.5s ease-in-out 1s;
 }
 
+.t5 {
+	transition:0.5s ease-in-out 1.33s;
+	-webkit-transition:0.5s ease-in-out 1.33s;
+}
+
 .t6 {
-	transition:0.5s ease-in-out 1.25s;
-	-webkit-transition:0.5s ease-in-out 1.25s;
+	transition:0.5s ease-in-out 1.66s;
+	-webkit-transition:0.5s ease-in-out 1.66s;
 }
 
 #content.s1 .dr.s1 {
