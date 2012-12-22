@@ -14,7 +14,7 @@ $(function(){
 	$.ajax({
 		dataType: 'jsonp',
 		url: 'http://runorg.local/voeux',
-		complete: function(data) {
+		success: function(data) {
 			$f.html(data.html);
 		}
 	});
