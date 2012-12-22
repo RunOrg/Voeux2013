@@ -13,7 +13,7 @@ $(function(){
 	
 	$.ajax({
 		dataType: 'jsonp',
-		url: 'http://runorg.local/voeux',
+		url: 'http://runorg.com/voeux',
 		success: function(data) {
 			$f.html(data.html);
 		}
