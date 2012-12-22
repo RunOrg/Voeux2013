@@ -14,7 +14,14 @@ body {
 	position: relative; 
 	margin: 60px auto;
 	width: 900px;
+	height: 700px;
 	overflow: hidden;
+}
+
+#content > div {
+	position: absolute; 
+	top: 0; 
+	left: 0; 
 }
 
 h1 {
@@ -22,6 +29,12 @@ h1 {
 	font-size: 50px;
 	font-weight: normal;
 	color: #E70079;
+}
+
+p {
+	font-size: 24px;
+	color: #888;
+	line-height: 1.5em;
 }
 
 /* Transition and animation (yay CSS3) ------------------------------- */
@@ -95,6 +108,11 @@ h1 {
 }
 
 #content.s1 .h.s1 {
+	opacity: 1;
+	visibility: visible;
+}
+
+#content.s2 .h.s2 {
 	opacity: 1;
 	visibility: visible;
 }
