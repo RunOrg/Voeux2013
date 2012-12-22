@@ -27,14 +27,14 @@ h1 {
 /* Transition and animation (yay CSS3) ------------------------------- */
 
 .logo {
-	background: url(logo.png) center center no-repeat #E70079;
 	width: 250px;
 	height: 250px;
 	opacity: 0;
 	visibility: hidden;
 	transform: rotate(-6deg) scale(0.85,0.85);
-	transition: 2s ease-in-out 2s;
-	-webkit-transition: 2s ease-in-out 2s;
+	-webkit-transform: rotate(-6deg) scale(0.85,0.85);
+	transition: 1.66s ease-in-out 0;
+	-webkit-transition: 1.66s ease-in-out 0;
 }
 
 .dr {
@@ -89,6 +89,7 @@ h1 {
 #content.s1 .logo.s1 {
 	opacity: 1;
 	transform: none;
+	-webkit-transform: none;
 	visibility: visible;
 }
 
