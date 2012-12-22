@@ -1,4 +1,12 @@
 $(function(){
-	$c = $('#content');
-	setTimeout (function(){$c.addClass('s1');},500);
+	var $c = $('#content');
+	
+	function show(s) { return function() { $c.addClass(s); }}
+	function hide(s) { return function() { $c.removeClass(s); }}
+	
+	var last = 0;
+	setTimeout(show('s1'),last += 0);
+	setTimeout(hide('s1'),last += 2000 + 5000);
+	setTimeout(show('s2'),last += 2000);
+	setTimeout(hide('s2'),last += 2000 + 5000);
 });
