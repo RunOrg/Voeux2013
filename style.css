@@ -1,0 +1,55 @@
+@import url(http://fonts.googleapis.com/css?family=Share+Tech);
+
+body {
+	/* Downloaded from http://subtlepatterns.com/bedge-grunge/
+     * Pattern by http://www.tapein.com/
+     */
+	background: url(bedge_grunge.png) #EEE;
+	font-family: 'Share Tech', sans-serif;
+}
+
+/* Typography and layout --------------------------------------------- */
+
+#content {
+	position: relative; 
+	margin: 40px auto;
+	width: 900px;
+}
+
+h1 {
+	margin: 0;
+	font-size: 64px;
+	font-weight: normal;
+	color: #E70079;
+}
+
+/* Transition and animation (yay CSS3) ------------------------------- */
+
+.dr {
+	position: relative; 
+	left: 50px;
+	opacity: 0.0;
+	visibility: hidden;
+	transition: left, opacity;
+}
+
+.t1 {
+	transition: 0.5s ease-in-out;
+	-webkit-transition: 0.5s ease-in-out;
+}
+
+.t2 {
+	transition: 0.5s ease-in-out 0.25s;
+	-webkit-transition: 0.5s ease-in-out 0.25s;
+}
+
+.t3 {
+	transition:0.5s ease-in-out 0.5s;
+	-webkit-transition:0.5s ease-in-out 0.5s;
+}
+
+#content.s1 .dr.s1 {
+	left: 0.1px;
+	opacity: 1;
+	visibility: visible;
+}
