@@ -12,7 +12,7 @@ body {
 
 #content {
 	position: relative; 
-	margin: 40px auto;
+	margin: 60px auto;
 	width: 900px;
 	overflow: hidden;
 }
@@ -25,6 +25,17 @@ h1 {
 }
 
 /* Transition and animation (yay CSS3) ------------------------------- */
+
+.logo {
+	background: url(logo.png) center center no-repeat #E70079;
+	width: 250px;
+	height: 250px;
+	opacity: 0;
+	visibility: hidden;
+	transform: rotate(-6deg) scale(0.85,0.85);
+	transition: 2s ease-in-out 2s;
+	-webkit-transition: 2s ease-in-out 2s;
+}
 
 .dr {
 	position: relative; 
@@ -70,8 +81,14 @@ h1 {
 }
 
 #content.s1 .dr.s1 {
-	left: 0.1px;
+	left: 0px;
 	opacity: 1;
+	visibility: visible;
+}
+
+#content.s1 .logo.s1 {
+	opacity: 1;
+	transform: none;
 	visibility: visible;
 }
 
