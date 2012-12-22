@@ -63,7 +63,7 @@ p {
 a.feed-add{
     border: 1px solid #777;
     display: block;
-    margin: 20px;
+    margin: 40px 20px 5px;
     height: 20px;
 	font-family: Verdana, Arial, sans-serif;
     padding: 3px 11px;
@@ -156,17 +156,12 @@ a.feed-add:hover {
 	-webkit-transition:0.5s ease-in-out 1.66s;
 }
 
-.t7 {
-	transition:0.5s ease-in-out 2s;
-	-webkit-transition:0.5s ease-in-out 2s;
-}
-
 .t9 {
 	transition:0.5s ease-in-out 2.66s;
 	-webkit-transition:0.5s ease-in-out 2.66s;
 }
 
-.t10 {
+.t11 {
 	transition:0.5s ease-in-out 3s;
 	-webkit-transition:0.5s ease-in-out 3s;
 }
