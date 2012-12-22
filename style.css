@@ -10,18 +10,12 @@ body {
 
 /* Typography and layout --------------------------------------------- */
 
-#content {
+#content > div {
 	position: relative; 
 	margin: 60px auto;
 	width: 900px;
 	height: 700px;
 	overflow: hidden;
-}
-
-#content > div {
-	position: absolute; 
-	top: 0; 
-	left: 0; 
 }
 
 h1 {
@@ -33,7 +27,7 @@ h1 {
 
 p {
 	font-size: 24px;
-	color: #888;
+	color: #666;
 	line-height: 1.5em;
 }
 
@@ -116,3 +110,6 @@ p {
 	opacity: 1;
 	visibility: visible;
 }
+
+#content.s1 .p2 { display: none }
+#content.s2 .p1 { display: none }
