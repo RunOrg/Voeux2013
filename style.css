@@ -6,6 +6,7 @@ body {
      */
 	background: url(bedge_grunge.png) #EEE;
 	font-family: 'Share Tech', sans-serif;
+	overflow-y: scroll;
 }
 
 /* Typography and layout --------------------------------------------- */
